@@ -1,0 +1,26 @@
+h1,
+h4 {
+    margin-top: 2rem;
+}
+
+button {
+    margin-top: 8rem;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+}
+
+.quote {
+    color: black;
+    margin-top: 1rem;
+
+}
+
+button:hover {
+    background-color: green;
+}
+
+button:active+.quote {
+    color: black;
+    opacity: 100;
+}
